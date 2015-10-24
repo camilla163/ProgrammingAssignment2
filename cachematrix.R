@@ -35,9 +35,9 @@ cacheSolve <-function(x,...){
   }
 
 ## Confirmation that code caches matrix and evaluates matrix
-dat<-c(1,2,3,3,2,1,2,1,3) #from Wolfram, square invertible matrix
-m <-matrix(dat,nrow=3,ncol=3,byrow=TRUE) 
-mat<-makeCacheMatrix(m)
-cacheSolve(mat) # should return the matrix if invertible
-cacheSolve(mat) #should return "getting cached data" message since matrix m already cached
+#dat<-c(1,2,3,3,2,1,2,1,3) #from Wolfram, square invertible matrix
+#m <-matrix(dat,nrow=3,ncol=3,byrow=TRUE) 
+#mat<-makeCacheMatrix(m)
+#cacheSolve(mat) # should return the matrix if invertible
+#cacheSolve(mat) #should return "getting cached data" message since matrix m already cached
 
